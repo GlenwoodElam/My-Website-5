@@ -1,0 +1,131 @@
+Example of a Good Website
+
+✅ Example: Good Website (HTML + CSS)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Website Example</title>
+  <style>
+    :root {
+      --primary-color: #2a9d8f;
+      --secondary-color: #264653;
+      --background-color: #f9f9f9;
+      --font-family: "Roboto", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-family);
+      background: var(--background-color);
+      color: var(--secondary-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e9c46a;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    img {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+    }
+
+    footer {
+      background: var(--secondary-color);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="logo.png" alt="Company Logo">
+    <p>
+      Hello! This is my professional website. It’s clean, responsive, and easy to
+      read. On this site, you’ll find information about me, my projects, and how
+      to get in touch.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website | Designed with HTML & CSS</p>
+  </footer>
+</body>
+</html>
+
+🌟 Why this version is “good”:
+
+Semantic structure (header, nav, main, footer).
+
+Consistent colors & fonts using CSS variables.
+
+Responsive design (menu changes layout on small screens).
+
+Readable text (good contrast, proper line spacing).
+
+Alt text on images for accessibility.
+
+Modern, clean design with whitespace and alignment.

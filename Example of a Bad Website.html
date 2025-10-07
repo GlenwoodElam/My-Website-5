@@ -1,0 +1,92 @@
+Example of a Bad Website
+
+This example will intentionally include all the mistakes we just discussed: poor structure, clashing colors, unreadable text, non-responsive layout, and outdated effects.
+
+❌ Example: Bad Website (HTML + CSS)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bad Website Example</title>
+  <style>
+    body {
+      background: url("big-background.jpg"); /* huge file */
+      color: #888888; /* low contrast */
+      font-size: 10px; /* tiny text */
+      font-family: Comic Sans MS, cursive;
+    }
+
+    .container {
+      width: 1000px; /* fixed width - not mobile friendly */
+      margin: auto;
+      border: 5px dotted red;
+      background: yellow;
+    }
+
+    h1 {
+      font-size: 60px;
+      color: lime;
+      text-align: center;
+      animation: blink 1s infinite; /* outdated flashing text */
+    }
+
+    @keyframes blink {
+      0% { color: red; }
+      50% { color: yellow; }
+      100% { color: red; }
+    }
+
+    p {
+      line-height: 1.0; /* cramped text */
+      background: purple;
+      color: pink; /* poor readability */
+    }
+
+    .menu {
+      background: blue;
+      padding: 5px;
+    }
+    .menu a {
+      color: red;
+      font-size: 20px;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>WELCOME TO MY WEBSITE!!!</h1>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </div>
+    <img src="logo.png"> <!-- No alt text -->
+    <p>
+      This is my website. It has lots of cool stuff.  
+      Scroll down for more text that goes on forever with no spacing and no structure 
+      and you will love it because it is very professional but actually it is not.  
+      Also the colors are hurting your eyes right now.
+    </p>
+    <marquee>Breaking News: I AM AWESOME!!!</marquee>
+  </div>
+</body>
+</html>
+
+
+
+🚨 What makes this site “bad”:
+
+Clashing colors (lime, red, purple, yellow, pink).
+
+Tiny text that’s hard to read.
+
+Fixed width (not responsive on phones).
+
+Blinking header and <marquee> (outdated 1990s design).
+
+No alt text on the logo.
+
+Low contrast (pink on purple, gray on background).
+
+No spacing or structure → everything is crammed.
